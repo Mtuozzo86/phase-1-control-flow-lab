@@ -11,7 +11,7 @@ function scuberGreetingForFeet(footage){
 
 
 function ternaryCheckCity(city){
-  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
+  return city === 'NYC' ? 'Ok sounds, good.' : 'No go.'
 } 
 
 
@@ -26,8 +26,8 @@ function ternaryCheckCity(city){
 
 // }
 
-function switchOnCharmFromTip(tip){
-  switch (tip) {
+function switchOnCharmFromTip(money){
+  switch (money) {
     case 'generous':
       return 'Thank you so much.';
       break;
